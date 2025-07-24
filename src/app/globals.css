@@ -5,11 +5,8 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  font-family: var(--font-caudex), serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,21 +27,85 @@ body {
 }
 
 .translucent-glass {
-  background-color: rgba(90, 90, 90, 0.25);
+  background-color: rgba(90, 90, 90, 0.4);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
 
 .translucent {
-  background-color: rgba(128, 128, 128, 0.2);
+  background-color: rgba(128, 128, 128, 0.5);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
 
-.background {
+/* .background {
   background-image: url('/images/rainy-weather-bg.png');
   background-size: cover;
   background-position: center;
   background-color: rgba(128, 128, 128, 0.2);
   backdrop-filter: blur(10px);
+} */
+
+/* Sunny Sky */
+.bg-sunny-sky {
+  background-image: url('/images/sunny-background.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Cloudy Sky */
+.bg-cloudy-sky {
+  background-image: url('/images/cloudy-background.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Rainy Sky */
+.bg-rainy-sky {
+  background-image: url('/images/rainy-weather-bg.png');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Snowy Sky */
+.bg-snowy-sky {
+  background-image: url('/images/snowy-background.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Stormy Sky */
+.bg-stormy-sky {
+  background-image: url('/images/stormy-background.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Foggy Sky */
+.bg-foggy-sky {
+  background-image: url('/images/foggy-background.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Freezing Rain Sky (can be similar to rainy but maybe colder tones) */
+.bg-freezing-rain-sky {
+  background-image: url('/images/freezing-rain-background.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Default Sky (Fallback) */
+.bg-default-sky {
+  background-image: url('/images/default-background.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out, background 1s ease-in-out;
 }

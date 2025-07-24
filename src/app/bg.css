@@ -1,0 +1,83 @@
+/* Ensure these styles are globally available */
+
+/* Sunny Sky */
+.bg-sunny-sky {
+    background: linear-gradient(to bottom right, #87CEEB, #6495ED);
+    /* Sky blue to cornflower blue */
+    /* Or a background image */
+    /* background-image: url('/images/sunny-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out, background 1s ease-in-out;
+    /* Smooth transition */
+}
+
+/* Cloudy Sky */
+.bg-cloudy-sky {
+    background: linear-gradient(to bottom right, #B0BEC5, #78909C);
+    /* Light gray to darker gray */
+    /* background-image: url('/images/cloudy-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Rainy Sky */
+.bg-rainy-sky {
+    background: linear-gradient(to bottom right, #546E7A, #37474F);
+    /* Darker blue-gray */
+    /* background-image: url('/images/rainy-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Snowy Sky */
+.bg-snowy-sky {
+    background: linear-gradient(to bottom right, #CFD8DC, #B0BEC5);
+    /* Very light blue-gray */
+    /* background-image: url('/images/snowy-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Stormy Sky */
+.bg-stormy-sky {
+    background: linear-gradient(to bottom right, #424242, #212121);
+    /* Dark almost black */
+    /* background-image: url('/images/stormy-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Foggy Sky */
+.bg-foggy-sky {
+    background: linear-gradient(to bottom right, #E0E0E0, #BDBDBD);
+    /* Light, muted gray */
+    /* background-image: url('/images/foggy-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Freezing Rain Sky (can be similar to rainy but maybe colder tones) */
+.bg-freezing-rain-sky {
+    background: linear-gradient(to bottom right, #81D4FA, #4FC3F7);
+    /* Icy blue */
+    /* background-image: url('/images/freezing-rain-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
+
+/* Default Sky (Fallback) */
+.bg-default-sky {
+    background: linear-gradient(to bottom right, #ADD8E6, #87CEFA);
+    /* Light blue */
+    /* background-image: url('/images/default-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out, background 1s ease-in-out;
+}
